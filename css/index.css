@@ -1,0 +1,24 @@
+body {
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+@supports (-webkit-touch-callout: none) {
+    body {
+        height: -webkit-fill-available;
+    }
+}
+main {
+    flex-grow: 1;
+    background: center / cover  no-repeat url('/img/VRChat_2024-02-08_19-52-27.611_7680x4320.png');
+    cursor: grab;
+}
+@media (orientation: portrait) {
+    main {
+        background: top / cover  no-repeat url('/img/VRChat_2024-09-23_22-57-50.309_2160x3840.png');
+    }
+}
+footer {
+    text-align: end;
+}
