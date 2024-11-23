@@ -55,12 +55,23 @@ table {
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    table-layout: fixed; /* 各列幅を固定 */
 }
 
 table th, table td {
     padding: 10px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    word-wrap: break-word; /* 長い単語を折り返す */
+}
+
+/* 列幅指定: 必要に応じて調整 */
+table th:nth-child(1), table td:nth-child(1) {
+    width: 70%; /* 接続先の列幅 */
+}
+
+table th:nth-child(2), table td:nth-child(2) {
+    width: 30%; /* 番号の列幅 */
 }
 
 table th {
