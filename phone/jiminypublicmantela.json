@@ -2,9 +2,9 @@
     "$schema": "https://kusaremkn.github.io/mantela/mantela.schema.json",
     "version": "0.0.0",
     "aboutMe": {
-       "name": "jiminy Public",
-       "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
-       "preferredPrefix": "108"
+        "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
+        "name": "jiminy Public",
+        "preferredPrefix": "108"
     },
     "extensions": [
         {
@@ -33,32 +33,38 @@
             "type": "main"
         },
         {
-            "extension": "FAX 1",
-            "name": "3300",
+            "extension": "3300",
+            "name": "FAX 1",
             "type": "fax"
         },
         {
-            "extension": "FAX 2",
-            "name": "3301",
+            "extension": "3301",
+            "name": "FAX 2",
             "type": "fax"
         },
         {
-            "extension": "jiminy Web",
-            "name": "9900",
+            "extension": "9900",
+            "name": "jiminy Web",
             "type": "other"
         },
         {
-            "extension": "KusaReMKN Web",
-            "name": "9910",
+            "extension": "9910",
+            "name": "KusaReMKN Web",
             "type": "other"
         },
         {
-            "extension": "Web電話アプリ",
-            "name": "9990",
+            "extension": "9990",
+            "name": "Web電話アプリ",
             "type": "other"
         }
     ],
     "providers": [
+        {
+            "identifier": "153048c5-db33-4e00-ad49-694762555d5c",
+            "name": "jiminy Local",
+            "prefix": "108",
+            "mantela": "https://108jiminy.jp/phone/jiminylocalmantela.json"
+        },
         {
             "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
             "name": "MKNETEL",

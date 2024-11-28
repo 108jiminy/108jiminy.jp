@@ -1,0 +1,55 @@
+{
+    "$schema": "https://kusaremkn.github.io/mantela/mantela.schema.json",
+    "version": "0.0.0",
+    "aboutMe": {
+        "identifier": "153048c5-db33-4e00-ad49-694762555d5c",
+        "name": "jiminy Local",
+       "preferredPrefix": "119"
+    },
+    "extensions": [
+        {
+            "extension": "301",
+            "name": "黒電話（緑）",
+            "type": "phone"
+        },
+        {
+            "extension": "302",
+            "name": "黒電話（白）",
+            "type": "phone"
+        },
+        {
+            "extension": "3200",
+            "name": "Android",
+            "type": "phone"
+        },
+        {
+            "extension": "3300",
+            "name": "FAX",
+            "type": "fax"
+        },
+        {
+            "extension": "802",
+            "name": "KusaReMKN直通（ローカル専用）",
+            "type": "main"
+        },
+        {
+            "extension": "98HHMM",
+            "name": "モーニングコール（ローカル専用）",
+            "type": "main"
+        }
+    ],
+    "providers": [
+        {
+            "name": "jiminy Public",
+            "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
+            "prefix": "1",
+            "mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json"
+        },
+        {
+            "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+            "name": "MKNETEL",
+            "prefix": "510",
+            "mantela": "https://unstable.kusaremkn.com/mantela.json"
+        }
+    ]
+}
