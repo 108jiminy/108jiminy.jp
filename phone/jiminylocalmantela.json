@@ -50,6 +50,12 @@
             "name": "MKNETEL",
             "prefix": "510",
             "mantela": "https://unstable.kusaremkn.com/mantela.json"
+        },
+        {
+            "identifier": "A50F0FB4-C5C9-4D1E-BDB5-9D73FA2F7EB5",
+            "name": "sasakulab",
+            "prefix": "530",
+            "mantela": "https://sasakulab.com/.well-known/mantela.json"
         }
     ]
 }
