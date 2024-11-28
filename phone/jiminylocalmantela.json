@@ -4,7 +4,7 @@
     "aboutMe": {
         "identifier": "153048c5-db33-4e00-ad49-694762555d5c",
         "name": "jiminy Local",
-       "preferredPrefix": "119"
+        "preferredPrefix": [ "108", "119" ]
     },
     "extensions": [
         {

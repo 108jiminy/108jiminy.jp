@@ -4,7 +4,7 @@
     "aboutMe": {
         "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
         "name": "jiminy Public",
-        "preferredPrefix": "108"
+        "preferredPrefix": [ "108", "119" ]
     },
     "extensions": [
         {
