@@ -6,7 +6,7 @@
     <title>じみにーさんとお話しよう</title>
     <link rel="stylesheet" href="./styles/index.css">
     <link rel="icon" href="../img/favicon.ico" id="favicon">
-    
+    <script src="script.js"></script>
 </head>
 <body>
     <main>
@@ -14,12 +14,12 @@
             <h2>じみにーさんと直接お話できるサイト</h2>
             <p><a href="https://talk.108jiminy.jp/jiminy/" target="_blank">じみにーさんとお話できるサイトはこちら</a></p>
         </section>
-        
+
         <section>
             <h2>運用中の電話交換局</h2>
             <div class="table-container">
                 <h3>Jiminy Public PBX</h3>
-                <table>
+                <table id="public-pbx-table">
                     <thead>
                         <tr>
                             <th>接続先</th>
@@ -27,57 +27,14 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>jiminy1</td>
-                            <td>300</td>
-                        </tr>
-                        <tr>
-                            <td>jiminy2</td>
-                            <td>***</td>
-                        </tr>
-                        <tr>
-                            <td>yude</td>
-                            <td>***</td>
-                        </tr>
-                        <tr>
-                            <td>kusareMKN</td>
-                            <td>***</td>
-                        </tr>
-                        <tr>
-                            <td>Koba</td>
-                            <td>***</td>
-                        </tr>
-                        <tr>
-                            <td>黒電話直通</td>
-                            <td>800</td>
-                        </tr>
-                        <tr>
-                            <td>jiminy1 Fax</td>
-                            <td>3300</td>
-                        </tr>
-                        <tr>
-                            <td>jiminy2 Fax</td>
-                            <td>3301</td>
-                        </tr>
-                        <tr>
-                            <td>Web（/jiminy）</td>
-                            <td>9900</td>
-                        </tr>
-                        <tr>
-                            <td>Web（/KusaReMKN）</td>
-                            <td>9910</td>
-                        </tr>
-                        <tr>
-                            <td>Web電話アプリ</td>
-                            <td>9990</td>
-                        </tr>
+                        <!-- json読み込み -->
                     </tbody>
                 </table>
             </div>
 
             <div class="table-container">
                 <h3>Jiminy Local PBX</h3>
-                <table>
+                <table id="local-pbx-table">
                     <thead>
                         <tr>
                             <th>接続先</th>
@@ -85,26 +42,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <td>黒電話1</td>
-                            <td>301</td>
-                        </tr>
-                        <tr>
-                            <td>黒電話2</td>
-                            <td>***</td>
-                        </tr>
-                        <tr>
-                            <td>Android</td>
-                            <td>3200</td>
-                        </tr>
-                        <tr>
-                            <td>KusaReMKN直通（ローカル専用）</td>
-                            <td>802</td>
-                        </tr>
-                        <tr>
-                            <td>モーニングコール（ローカル専用）</td>
-                            <td>98HHMM</td>
-                        </tr>
+                        <!-- json読み込み -->
                     </tbody>
                 </table>
             </div>
