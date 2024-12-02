@@ -18,19 +18,14 @@
             "type": "phone"
         },
         {
-            "extension": "3200",
-            "name": "Android",
-            "type": "phone"
-        },
-        {
-            "extension": "3300",
-            "name": "FAX",
-            "type": "fax"
-        },
-        {
             "extension": "802",
             "name": "KusaReMKN直通（ローカル専用）",
             "type": "main"
+        },
+        {
+            "extension": "9600",
+            "name": "FAX",
+            "type": "fax"
         },
         {
             "extension": "98HHMM",
@@ -46,16 +41,28 @@
             "mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json"
         },
         {
+            "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
+            "name": "YUDE",
+            "prefix": "039",
+            "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
+        },
+        {
             "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
             "name": "MKNETEL",
             "prefix": "510",
-            "mantela": "https://unstable.kusaremkn.com/mantela.json"
+            "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
         },
         {
             "identifier": "A50F0FB4-C5C9-4D1E-BDB5-9D73FA2F7EB5",
             "name": "sasakulab",
             "prefix": "530",
             "mantela": "https://sasakulab.com/.well-known/mantela.json"
+        },
+        {
+            "identifier": "f5c44210-8cb8-4e87-85a7-df3d3ff951e6",
+            "name": "pepepper",
+            "prefix": "617",
+            "mantela": "https://www.pepepper.net/.well-known/mantela.json"
         }
     ]
 }
