@@ -23,6 +23,16 @@
             "type": "main"
         },
         {
+            "extension": "9117",
+            "name": "オレオレ時報",
+            "type": "other"
+        },
+        {
+            "extension": "9400",
+            "name": "BGM",
+            "type": "other"
+        },
+        {
             "extension": "9600",
             "name": "FAX",
             "type": "fax"
