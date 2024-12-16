@@ -98,6 +98,12 @@
             "name": "pepepper",
             "prefix": "617",
             "mantela": "https://www.pepepper.net/.well-known/mantela.json"
+        },
+        {
+            "identifier": "46b3929e-a4af-48ad-827a-a13d672c01d5",
+            "name": "Numekick",
+            "prefix": "884",
+            "mantela": ""
         }
     ]
 }
