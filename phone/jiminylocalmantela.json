@@ -23,6 +23,11 @@
             "type": "main"
         },
         {
+            "extension": "3300",
+            "name": "現代電話",
+            "type": "phone"
+        },
+        {
             "extension": "9117",
             "name": "オレオレ時報",
             "type": "other"
@@ -47,15 +52,27 @@
         {
             "name": "jiminy Public",
             "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
-            "prefix": "1",
+            "prefix": "108",
             "mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json"
         },
+        {
+			"identifier": "e5e9120a-1b58-4eb7-b2c8-efe5b452c910",
+			"name": "moyashitel",
+			"prefix": "311",
+			"mantela": "https://moyashim-25.com/.well-known/mantela.json"
+		},
         {
             "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
             "name": "YUDE",
             "prefix": "390",
             "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
         },
+        {
+			"identifier": "XXX:yoshina",
+			"name": "yoshina",
+			"prefix": "447",
+			"mantela": ""
+		},
         {
             "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
             "name": "MKNETEL",
