@@ -50,6 +50,12 @@
     ],
     "providers": [
         {
+            "identifier": "153048c5-db33-4e00-ad49-694762555d5c",
+            "name": "jiminy Local",
+            "prefix": "0",
+            "mantela": "https://108jiminy.jp/phone/jiminylocalmantela.json"
+        },
+        {
             "name": "jiminy Public",
             "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
             "prefix": "108",
