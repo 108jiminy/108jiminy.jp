@@ -82,6 +82,12 @@
             "mantela": "https://108jiminy.jp/phone/jiminylocalmantela.json"
         },
         {
+            "identifier": "b2b242ff-826f-78a4-4315-c1d0573311de",
+            "name": "kaiware",
+            "prefix": "308",
+            "mantela": "https://kaiware9011.github.io/mantela/KaiwareMantela.json"
+		},
+        {
 			"identifier": "e5e9120a-1b58-4eb7-b2c8-efe5b452c910",
 			"name": "moyashitel",
 			"prefix": "311",
@@ -128,6 +134,12 @@
             "name": "Numekick",
             "prefix": "884",
             "mantela": "https://numekick.github.io/Numekick.Mantela/numekick.json"
-        }
+        },
+        {
+            "identifier": "91c5f34f-c178-4cfe-a488-be6ed00fac3b",
+            "name": "hieri",
+            "prefix": "890",
+            "mantela": "https://hieri1021.github.io/.well-known/mantela.json"
+		}
     ]
 }

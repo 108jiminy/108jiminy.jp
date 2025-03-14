@@ -67,6 +67,12 @@
 			"prefix": "311",
 			"mantela": "https://moyashim-25.com/.well-known/mantela.json"
 		},
+		{
+            "identifier": "b2b242ff-826f-78a4-4315-c1d0573311de",
+            "name": "kaiware",
+            "prefix": "308",
+            "mantela": "https://kaiware9011.github.io/mantela/KaiwareMantela.json"
+		},
         {
             "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
             "name": "YUDE",
@@ -98,16 +104,22 @@
             "mantela": "https://www.pepepper.net/.well-known/mantela.json"
         },
         {
-			"identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8",
-			"name": "8yazaki",
-			"prefix": "808",
-			"mantela": "https://www.8yazaki.jp/mantela.json"
-		},
+		    "identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8",
+		    "name": "8yazaki",
+		    "prefix": "808",
+		    "mantela": "https://www.8yazaki.jp/mantela.json"
+        },
         {
             "identifier": "46b3929e-a4af-48ad-827a-a13d672c01d5",
             "name": "Numekick",
             "prefix": "884",
             "mantela": "https://numekick.github.io/Numekick.Mantela/numekick.json"
-        }
+        },
+        {
+            "identifier": "91c5f34f-c178-4cfe-a488-be6ed00fac3b",
+            "name": "hieri",
+            "prefix": "890",
+            "mantela": "https://hieri1021.github.io/.well-known/mantela.json"
+		}
     ]
 }
