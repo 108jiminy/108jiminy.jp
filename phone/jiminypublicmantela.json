@@ -118,6 +118,12 @@
             "mantela": "https://www.pepepper.net/.well-known/mantela.json"
         },
         {
+			"identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8",
+			"name": "8yazaki",
+			"prefix": "808",
+			"mantela": "https://www.8yazaki.jp/mantela.json"
+		},
+        {
             "identifier": "46b3929e-a4af-48ad-827a-a13d672c01d5",
             "name": "Numekick",
             "prefix": "884",
