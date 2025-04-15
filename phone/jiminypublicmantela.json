@@ -100,10 +100,10 @@
             "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
         },
         {
-			"identifier": "XXX:yoshina",
+			"identifier": "db30e15e-b101-4069-a406-9af3fdfe5c2e",
 			"name": "yoshina",
 			"prefix": "447",
-			"mantela": ""
+			"mantela": "https://yosh1na-hub.github.io/Mantela/Mantela.yoshina.json"
 		},
         {
             "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
